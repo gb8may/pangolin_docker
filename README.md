@@ -2,4 +2,14 @@ Pangolin is a lightweight portable rapid development library for managing OpenGL
 
 1 - Install by GitHub
 
-git clone 
+```
+$ git clone https://github.com/gb8may/pangolin_docker.git
+$ docker build -t pangolin .
+$ docker run -d -p- 8080:8080 pangolin
+```
+
+2 - Push by DockerHub
+
+```
+$docker run -d -p 8080:8080 gb8may/pangolin:latest
+```
