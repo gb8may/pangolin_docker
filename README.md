@@ -17,3 +17,5 @@ $ docker run -d -p- 8080:8080 pangolin
 ```
 $docker run -d -p 8080:8080 gb8may/pangolin
 ```
+
+![docker-gif](https://user-images.githubusercontent.com/35708820/81996019-59ed4d80-9622-11ea-8826-a78cd9cd0728.gif)
