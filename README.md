@@ -1,6 +1,6 @@
 # Pangolin
 
-Pangolin is a lightweight portable rapid development library for managing OpenGL display / interaction and abstracting video input. At its heart is a simple OpenGl viewport manager which can help to modularise 3D visualisation without adding to its complexity, and offers an advanced but intuitive 3D navigation handler. Pangolin also provides a mechanism for manipulating program variables through config files and ui integration, and has a flexible real-time plotter for visualising graphical data.
+##### Pangolin is a lightweight portable rapid development library for managing OpenGL display / interaction and abstracting video input. At its heart is a simple OpenGl viewport manager which can help to modularise 3D visualisation without adding to its complexity, and offers an advanced but intuitive 3D navigation handler. Pangolin also provides a mechanism for manipulating program variables through config files and ui integration, and has a flexible real-time plotter for visualising graphical data.
 
 >
 
@@ -12,8 +12,8 @@ $ docker build -t pangolin .
 $ docker run -d -p- 8080:8080 pangolin
 ```
 
-2 - Push by DockerHub
+2 - Push by [DockerHub](https://hub.docker.com/r/gb8may/pangolin)
 
 ```
-$docker run -d -p 8080:8080 gb8may/pangolin:latest
+$docker run -d -p 8080:8080 gb8may/pangolin
 ```
