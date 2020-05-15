@@ -9,7 +9,7 @@
 ```
 $ git clone https://github.com/gb8may/pangolin_docker.git
 $ docker build -t pangolin .
-$ docker run -d -p- 8080:8080 pangolin
+$ docker run -d -p 8080:8080 pangolin
 ```
 
 * Push by [DockerHub](https://hub.docker.com/r/gb8may/pangolin)
